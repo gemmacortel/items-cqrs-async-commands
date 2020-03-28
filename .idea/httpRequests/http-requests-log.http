@@ -1,0 +1,96 @@
+PATCH http://localhost:8000/add/2/2
+Content-Type: application/json
+
+<> 2020-03-28T105351.200.json
+
+###
+
+PATCH http://localhost:8000/add/2/2
+Content-Type: application/json
+
+<> 2020-03-28T105232.500.html
+
+###
+
+GET http://localhost:8000/add/2/2
+Content-Type: application/json
+
+<> 2020-03-28T105203.200.json
+
+###
+
+GET http://localhost:8000/2
+Content-Type: application/json
+
+<> 2020-03-28T104836.200.json
+
+###
+
+GET http://localhost:8000/4
+Content-Type: application/json
+
+<> 2020-03-28T102756.400.json
+
+###
+
+GET http://localhost:8000/1
+Content-Type: application/json
+
+<> 2020-03-28T102752.200.json
+
+###
+
+GET http://localhost:8000/1
+Content-Type: application/json
+
+<> 2020-03-28T093829.200.json
+
+###
+
+GET http://localhost:8000/1
+Content-Type: application/json
+
+<> 2020-03-28T093740.200.json
+
+###
+
+GET http://localhost:8000/1
+Content-Type: application/json
+
+<> 2020-03-28T093714.500.html
+
+###
+
+GET http://localhost:8000/1
+Content-Type: application/json
+
+<> 2020-03-28T093619.500.html
+
+###
+
+GET http://localhost:8000/1
+Content-Type: application/json
+
+<> 2020-03-28T093550.500.html
+
+###
+
+GET http://localhost:8000
+Content-Type: application/json
+
+<> 2020-03-28T093530.200.json
+
+###
+
+GET http://localhost:8000
+Content-Type: application/json
+
+###
+
+GET http://localhost
+Content-Type: application/json
+
+<> 2020-03-28T093429.404.html
+
+###
+
