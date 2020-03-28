@@ -24,7 +24,7 @@ Content-Type: application/json
 }
 
 ###Remove item by id
-DELETE http://localhost:8000/3
+DELETE http://localhost:8000/4
 Content-Type: application/json
 
 ###

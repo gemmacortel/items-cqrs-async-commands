@@ -2,6 +2,7 @@
 
 namespace App\UI\Controller;
 
+use App\Application\Exception\ItemNotFoundException;
 use App\Application\Service\GetItemApplicationService;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
@@ -29,7 +30,7 @@ class GetItemController extends AbstractController
     {
         try {
             $itemData = $this->applicationService->execute($id);
-        } catch (\Exception $e) {
+        } catch (ItemNotFoundException $e) {
             return $this->json('The item does not exist', Response::HTTP_BAD_REQUEST);
         }
 

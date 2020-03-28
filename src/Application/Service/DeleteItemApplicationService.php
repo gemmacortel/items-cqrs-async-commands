@@ -2,6 +2,7 @@
 
 namespace App\Application\Service;
 
+use App\Application\Exception\ItemNotFoundException;
 use App\Domain\Repository\ItemsRepository;
 
 class DeleteItemApplicationService
@@ -19,14 +20,14 @@ class DeleteItemApplicationService
     /**
      * @param int $id
      * @return void
-     * @throws \Exception
+     * @throws ItemNotFoundException
      */
     public function execute(int $id): void
     {
         $item = $this->itemsRepository->search($id);
 
         if (null === $item) {
-            throw new \Exception('The item does not exist');
+            throw new ItemNotFoundException('The item does not exist');
         }
 
         $this->itemsRepository->delete($item);
