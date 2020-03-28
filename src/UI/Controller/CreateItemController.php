@@ -7,7 +7,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 
-class CreateItem extends AbstractController
+class CreateItemController extends AbstractController
 {
     /**
      * @var CreateItemApplicationService
@@ -20,7 +20,7 @@ class CreateItem extends AbstractController
     }
 
     /**
-     * @Route("/", requirements={"id" = "\d+"}, methods={"POST"})
+     * @Route("/", name="create", requirements={"id" = "\d+"}, methods={"POST"})
      * @param Request $request
      * @return \Symfony\Component\HttpFoundation\JsonResponse
      */
