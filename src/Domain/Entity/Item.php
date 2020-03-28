@@ -27,6 +27,17 @@ class Item
      */
     private $quantity;
 
+    /**
+     * Item constructor.
+     * @param $name
+     * @param $quantity
+     */
+    public function __construct($name, $quantity)
+    {
+        $this->name = $name;
+        $this->quantity = $quantity;
+    }
+
     public function getId(): ?int
     {
         return $this->id;

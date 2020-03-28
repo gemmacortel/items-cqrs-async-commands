@@ -14,4 +14,13 @@ Content-Type: application/json
 PATCH http://localhost:8000/add/2/2
 Content-Type: application/json
 
+###Create new item
+POST http://localhost:8000/
+Content-Type: application/json
+
+{
+  "name": "berries",
+  "quantity": 10
+}
+
 ###
