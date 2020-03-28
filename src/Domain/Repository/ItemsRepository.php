@@ -12,4 +12,6 @@ interface ItemsRepository
 
     public function save(Item $item): void;
 
+    public function delete(Item $item): void;
+
 }

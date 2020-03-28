@@ -36,4 +36,10 @@ class DoctrineItemsRepository extends ServiceEntityRepository implements ItemsRe
         $this->getEntityManager()->persist($item);
         $this->getEntityManager()->flush();
     }
+
+    public function delete(Item $item): void
+    {
+        $this->getEntityManager()->remove($item);
+        $this->getEntityManager()->flush();
+    }
 }
