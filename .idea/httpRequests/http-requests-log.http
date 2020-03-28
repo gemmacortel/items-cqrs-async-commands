@@ -1,3 +1,38 @@
+GET http://localhost:8000/all
+Content-Type: application/json
+
+<> 2020-03-28T110300.200.json
+
+###
+
+GET http://localhost:8000/all
+Content-Type: application/json
+
+<> 2020-03-28T110248.200.json
+
+###
+
+GET http://localhost:8000/all
+Content-Type: application/json
+
+<> 2020-03-28T110234.200.json
+
+###
+
+GET http://localhost:8000/all
+Content-Type: application/json
+
+<> 2020-03-28T110126.500.html
+
+###
+
+GET http://localhost:8000/all
+Content-Type: application/json
+
+<> 2020-03-28T110110.500.html
+
+###
+
 PATCH http://localhost:8000/add/2/2
 Content-Type: application/json
 

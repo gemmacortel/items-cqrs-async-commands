@@ -17,7 +17,7 @@ class RetrieveItemsController extends AbstractController
     }
 
     /**
-     * @Route("/retrieve/{id}/{quantity}", requirements={"id" = "\d+"}, , methods={"PATCH"})
+     * @Route("/retrieve/{id}/{quantity}", requirements={"id" = "\d+"}, methods={"PATCH"})
      * @param int $id
      * @param int $quantity
      * @return \Symfony\Component\HttpFoundation\JsonResponse

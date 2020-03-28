@@ -2,35 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab8a6473-546d-4bdc-a16a-bdb10942cf8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/examples.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/DTO/ItemData.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Service/AddItemsApplicationService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Service/GetItemApplicationService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Service/ListItemsApplicationService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Service/RetrieveItemsApplicationService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/Entity/Item.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/Repository/ItemsRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Infrastructure/Repository/DoctrineItemsRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20200321093712.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/Controller/AddItemsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/Controller/GetItemController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/Controller/ListItemsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/Controller/RetrieveItemsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes/annotations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml.dist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-03-28T110300.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2020-03-28T110300.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/Controller/RetrieveItemsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Controller/RetrieveItemsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/translations/.gitignore" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/UI/Controller/RetrieveItemsController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="19" column="91" selection-start-line="19" selection-start-column="91" selection-end-line="19" selection-end-column="91" />
+              <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
               <folding>
                 <element signature="e#37#97#0#PHP" expanded="true" />
               </folding>
@@ -108,18 +85,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples.http">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="238">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+              <first_editor relative-caret-position="70">
+                <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -166,7 +143,6 @@
         <option value="$PROJECT_DIR$/src/Migrations/Version20200321093712.php" />
         <option value="$PROJECT_DIR$/src/Domain/Repository/ItemsRepositoryInterface.php" />
         <option value="$PROJECT_DIR$/src/Infrastructure/Repository/ItemsRepository.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/Application/ItemData.php" />
         <option value="$PROJECT_DIR$/src/Application/Service/GetItemApplicationServiceTest.php" />
@@ -189,8 +165,9 @@
         <option value="$PROJECT_DIR$/src/Application/Service/AddItemsApplicationService.php" />
         <option value="$PROJECT_DIR$/src/UI/Controller/AddItemController.php" />
         <option value="$PROJECT_DIR$/src/UI/Controller/AddItemsController.php" />
-        <option value="$PROJECT_DIR$/src/UI/Controller/RetrieveItemsController.php" />
         <option value="$PROJECT_DIR$/examples.http" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/UI/Controller/RetrieveItemsController.php" />
       </list>
     </option>
   </component>
@@ -324,6 +301,24 @@
               <item name="items" type="b2602c69:ProjectViewProjectNode" />
               <item name="items" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="items" type="b2602c69:ProjectViewProjectNode" />
+              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="items" type="b2602c69:ProjectViewProjectNode" />
+              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="items" type="b2602c69:ProjectViewProjectNode" />
+              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -358,6 +353,36 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000/all" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PATCH" />
+          <option name="urlBase" value="http://localhost:8000/retrieve/2/2" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="PATCH" />
           <option name="urlBase" value="http://localhost:8000/add/2/2" />
@@ -478,8 +503,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.examples#4">
+  <component name="RunManager" selected="HTTP Request.examples#1">
     <configuration name="examples#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/examples.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="examples#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/examples.http" index="3">
       <method v="2" />
     </configuration>
     <configuration name="examples#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/examples.http" index="4">
@@ -495,8 +523,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.examples#4" />
         <item itemvalue="HTTP Request.examples#1" />
+        <item itemvalue="HTTP Request.examples#3" />
+        <item itemvalue="HTTP Request.examples#4" />
         <item itemvalue="PHPUnit.GetItemApplicationServiceTest.testTest" />
         <item itemvalue="PHPUnit.GetItemApplicationServiceTest" />
       </list>
@@ -517,7 +546,7 @@
       <workItem from="1585160580800" duration="718000" />
       <workItem from="1585241775943" duration="806000" />
       <workItem from="1585382046735" duration="1192000" />
-      <workItem from="1585383246125" duration="5883000" />
+      <workItem from="1585383246125" duration="6382000" />
     </task>
     <servers />
   </component>
@@ -548,17 +577,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15587000" />
+    <option name="totallyTimeSpent" value="16086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="27" width="1440" height="877" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939634" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32939634" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32939634" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -567,7 +597,7 @@
       <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32939634" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32939634" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32939634" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32939634" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -735,16 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/Controller/ListItemsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -823,20 +843,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/Controller/RetrieveItemsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="91" selection-start-line="19" selection-start-column="91" selection-end-line="19" selection-end-column="91" />
-          <folding>
-            <element signature="e#37#97#0#PHP" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="70">
+            <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples.http">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Controller/RetrieveItemsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+          <folding>
+            <element signature="e#37#97#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
