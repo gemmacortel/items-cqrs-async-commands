@@ -20,7 +20,7 @@ class ListItemsController extends AbstractController
     }
 
     /**
-     * @Route("/all")
+     * @Route("/all", name="list", methods={"GET"})
      * @return Response
      * @throws \Exception
      */

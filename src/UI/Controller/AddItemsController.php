@@ -17,7 +17,7 @@ class AddItemsController extends AbstractController
     }
 
     /**
-     * @Route("/add/{id}/{quantity}", requirements={"id" = "\d+"}, methods={"PATCH"})
+     * @Route("/add/{id}/{quantity}", name="add", requirements={"id" = "\d+"}, methods={"PATCH"})
      * @param int $id
      * @param int $quantity
      * @return \Symfony\Component\HttpFoundation\JsonResponse

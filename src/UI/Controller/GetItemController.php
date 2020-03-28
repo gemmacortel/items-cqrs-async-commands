@@ -20,7 +20,7 @@ class GetItemController extends AbstractController
     }
 
     /**
-     * @Route("/{id}", name="id", requirements={"id" = "\d+"})
+     * @Route("/{id}", name="get", requirements={"id" = "\d+"}, methods={"GET"})
      * @param int $id
      * @return Response
      * @throws \Exception
