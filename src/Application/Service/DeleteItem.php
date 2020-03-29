@@ -5,7 +5,7 @@ namespace App\Application\Service;
 use App\Application\Exception\ItemNotFoundException;
 use App\Domain\Repository\ItemsRepository;
 
-class DeleteItemApplicationService
+class DeleteItem
 {
     /**
      * @var ItemsRepository

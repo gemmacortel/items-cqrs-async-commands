@@ -6,7 +6,7 @@ use App\Application\DTO\ItemData;
 use App\Application\Exception\ItemNotFoundException;
 use App\Domain\Repository\ItemsRepository;
 
-class GetItemApplicationService
+class RetrieveItems
 {
     /**
      * @var ItemsRepository
@@ -18,12 +18,7 @@ class GetItemApplicationService
         $this->itemsRepository = $itemsRepository;
     }
 
-    /**
-     * @param int $id
-     * @return ItemData
-     * @throws ItemNotFoundException
-     */
-    public function execute(int $id): ItemData
+    public function execute(int $id, int $quantity)
     {
         $item = $this->itemsRepository->search($id);
 
@@ -31,6 +26,18 @@ class GetItemApplicationService
             throw new ItemNotFoundException('The item does not exist');
         }
 
+        $this->retrieve($quantity, $item);
+
         return new ItemData($item->getId(), $item->getName(), $item->getQuantity());
+    }
+
+    /**
+     * @param int $quantity
+     * @param \App\Domain\Entity\Item|null $item
+     */
+    protected function retrieve(int $quantity, ?\App\Domain\Entity\Item $item): void
+    {
+        $item->retrieve($quantity);
+        $this->itemsRepository->save($item);
     }
 }

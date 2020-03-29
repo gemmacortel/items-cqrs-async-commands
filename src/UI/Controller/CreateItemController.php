@@ -2,7 +2,7 @@
 
 namespace App\UI\Controller;
 
-use App\Application\Service\CreateItemApplicationService;
+use App\Application\Service\CreateItem;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
@@ -10,11 +10,11 @@ use Symfony\Component\Routing\Annotation\Route;
 class CreateItemController extends AbstractController
 {
     /**
-     * @var CreateItemApplicationService
+     * @var CreateItem
      */
     private $applicationService;
 
-    public function __construct(CreateItemApplicationService $applicationService)
+    public function __construct(CreateItem $applicationService)
     {
         $this->applicationService = $applicationService;
     }

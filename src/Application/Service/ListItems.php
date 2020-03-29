@@ -5,7 +5,7 @@ namespace App\Application\Service;
 use App\Application\DTO\ItemData;
 use App\Domain\Repository\ItemsRepository;
 
-class ListItemsApplicationService
+class ListItems
 {
     /**
      * @var ItemsRepository

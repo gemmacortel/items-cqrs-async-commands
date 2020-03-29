@@ -3,7 +3,7 @@
 namespace App\UI\Controller;
 
 use App\Application\Exception\ItemNotFoundException;
-use App\Application\Service\DeleteItemApplicationService;
+use App\Application\Service\DeleteItem;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -11,11 +11,11 @@ use Symfony\Component\Routing\Annotation\Route;
 class DeleteItemController extends AbstractController
 {
     /**
-     * @var DeleteItemApplicationService
+     * @var DeleteItem
      */
     private $applicationService;
 
-    public function __construct(DeleteItemApplicationService $applicationService)
+    public function __construct(DeleteItem $applicationService)
     {
         $this->applicationService = $applicationService;
     }

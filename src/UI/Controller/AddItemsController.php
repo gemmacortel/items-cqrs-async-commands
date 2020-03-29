@@ -3,7 +3,7 @@
 namespace App\UI\Controller;
 
 use App\Application\Exception\ItemNotFoundException;
-use App\Application\Service\AddItemsApplicationService;
+use App\Application\Service\AddItems;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -12,7 +12,7 @@ class AddItemsController extends AbstractController
 {
     private $applicationService;
 
-    public function __construct(AddItemsApplicationService $applicationService)
+    public function __construct(AddItems $applicationService)
     {
         $this->applicationService = $applicationService;
     }
