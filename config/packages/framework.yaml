@@ -14,3 +14,15 @@ framework:
     #fragments: true
     php_errors:
         log: true
+
+    messenger:
+        # The bus that is going to be injected when injecting MessageBusInterface
+        default_bus: command.bus
+        buses:
+            command.bus:
+                middleware:
+                    - validation
+                    - doctrine_transaction
+            query.bus:
+                middleware:
+                    - validation

@@ -2,21 +2,23 @@
 
 namespace App\UI\Controller;
 
-use App\Application\Service\CreateItem;
+use App\Application\CreateItem\CreateItemCommand;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Messenger\MessageBusInterface;
 use Symfony\Component\Routing\Annotation\Route;
 
 class CreateItemController extends AbstractController
 {
     /**
-     * @var CreateItem
+     * @var MessageBusInterface
      */
-    private $applicationService;
+    private $commandBus;
 
-    public function __construct(CreateItem $applicationService)
+    public function __construct(MessageBusInterface $commandBus)
     {
-        $this->applicationService = $applicationService;
+        $this->commandBus = $commandBus;
     }
 
     /**
@@ -28,11 +30,10 @@ class CreateItemController extends AbstractController
     {
         $content = json_decode($request->getContent());
 
-        $name = $content->name;
-        $quantity = $content->quantity;
+        $command = new CreateItemCommand($content->name, $content->quantity);
 
-        $itemData = $this->applicationService->execute($name, $quantity);
+        $this->commandBus->dispatch($command);
 
-        return $this->json($itemData);
+        return $this->json('OK', Response::HTTP_ACCEPTED);
     }
 }

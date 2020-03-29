@@ -2,22 +2,27 @@
 
 namespace App\UI\Controller;
 
-use App\Application\Exception\ItemNotFoundException;
-use App\Application\Service\GetItem;
+use App\Application\GetItem\GetItemQuery;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Messenger\MessageBusInterface;
+use Symfony\Component\Messenger\Stamp\HandledStamp;
 use Symfony\Component\Routing\Annotation\Route;
 
 class GetItemController extends AbstractController
 {
     /**
-     * @var GetItem
+     * @var MessageBusInterface
      */
-    private $applicationService;
+    private $queryBus;
 
-    public function __construct(GetItem $applicationService)
+    /**
+     * GetItemController constructor.
+     * @param MessageBusInterface $queryBus
+     */
+    public function __construct(MessageBusInterface $queryBus)
     {
-        $this->applicationService = $applicationService;
+        $this->queryBus = $queryBus;
     }
 
     /**
@@ -28,12 +33,10 @@ class GetItemController extends AbstractController
      */
     public function find(int $id)
     {
-        try {
-            $itemData = $this->applicationService->execute($id);
-        } catch (ItemNotFoundException $e) {
-            return $this->json('The item does not exist', Response::HTTP_BAD_REQUEST);
-        }
+        $envelope = $this->queryBus->dispatch(new GetItemQuery($id));
 
-        return $this->json($itemData);
+        $handled = $envelope->last(HandledStamp::class);
+
+        return $this->json($handled->getResult());
     }
 }

@@ -25,3 +25,26 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+    App\Application\AddItems\AddItemsCommandHandler:
+        tags: [{ name: messenger.message_handler, bus: command.bus }]
+        autoconfigure: false
+
+    App\Application\SubstractItems\SubstractItemsCommandHandler:
+        tags: [{ name: messenger.message_handler, bus: command.bus }]
+        autoconfigure: false
+
+    App\Application\CreateItem\CreateItemCommandHandler:
+        tags: [{ name: messenger.message_handler, bus: command.bus }]
+        autoconfigure: false
+
+    App\Application\DeleteItem\DeleteItemCommandHandler:
+        tags: [{ name: messenger.message_handler, bus: command.bus }]
+        autoconfigure: false
+
+    App\Application\GetItem\GetItemQueryHandler:
+        tags: [{ name: messenger.message_handler, bus: query.bus }]
+        autoconfigure: false
+
+    App\Application\ListItems\ListItemsQueryHandler:
+        tags: [{ name: messenger.message_handler, bus: query.bus }]
+        autoconfigure: false

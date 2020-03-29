@@ -1,13 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab8a6473-546d-4bdc-a16a-bdb10942cf8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-03-28T110300.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2020-03-28T110300.200.json" afterDir="false" />
+    <list default="true" id="ab8a6473-546d-4bdc-a16a-bdb10942cf8e" name="Default Changelist" comment="Name endpoints">
+      <change afterPath="$PROJECT_DIR$/config/packages/messenger.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/AddItems/AddItemsCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/AddItems/AddItemsCommandHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/CreateItem/CreateItemCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/CreateItem/CreateItemCommandHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/DeleteItem/DeleteItemCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/DeleteItem/DeleteItemCommandHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/GetItem/GetItemQuery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/GetItem/GetItemQueryHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/ListItems/ListItemsQuery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/ListItems/ListItemsQueryHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/SubstractItems/SubstractItems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/SubstractItems/SubstractItemsCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/SubstractItems/SubstractItemsCommandHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/ValueObject/IntValueObject.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/ValueObject/ItemId.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/ValueObject/ItemName.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/ValueObject/ItemQuantity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-03-28T093429.404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-03-28T093530.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-03-28T093550.500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-03-28T093619.500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-03-28T093714.500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-03-28T093740.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-03-28T093829.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-03-28T102752.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-03-28T102756.400.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-03-28T104836.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-03-28T105203.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-03-28T105232.500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-03-28T105351.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-03-28T110110.500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-03-28T110126.500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-03-28T110234.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-03-28T110248.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-03-28T110300.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-03-29T061129.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2020-03-29T061129.200.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/items.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/items.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Controller/RetrieveItemsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Controller/RetrieveItemsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/translations/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples.http" beforeDir="false" afterPath="$PROJECT_DIR$/examples.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/Service/AddItems.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/AddItems/AddItems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/Service/CreateItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/CreateItem/CreateItem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/Service/DeleteItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/DeleteItem/DeleteItem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/Service/GetItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/GetItem/GetItem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/Service/ListItems.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/ListItems/ListItems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/Service/RetrieveItems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/Controller/AddItemsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Controller/AddItemsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/Controller/CreateItemController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Controller/CreateItemController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/Controller/DeleteItemController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Controller/DeleteItemController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/Controller/GetItemController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Controller/GetItemController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/Controller/ListItemsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Controller/ListItemsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/Controller/RetrieveItemsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Controller/SubstractItemsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,47 +112,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/Controller/AddItemsController.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/UI/Controller/ListItemsController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
-              <caret line="19" column="84" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="84" />
-              <folding>
-                <element signature="e#37#92#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/UI/Controller/RetrieveItemsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
-              <folding>
-                <element signature="e#37#97#0#PHP" expanded="true" />
-              </folding>
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples.http">
+        <entry file="file://$PROJECT_DIR$/src/UI/Controller/GetItemController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="70">
-                <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="356">
+              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+              <folding>
+                <element signature="e#37#89#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,11 +154,16 @@
       <find>BAD_REQUEST</find>
       <find>200</find>
       <find>400</find>
+      <find>Service/AddItems</find>
+      <find>Bus</find>
+      <find>mailer.messenger.message_handler</find>
+      <find>RetrieveItemsCommand</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/vendor/symfony/maker-bundle</dir>
       <dir>$PROJECT_DIR$/vendor/symfony/http-client</dir>
       <dir>$PROJECT_DIR$/vendor/symfony/http-foundation</dir>
+      <dir>$PROJECT_DIR$/vendor/simple-bus/message-bus</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -137,37 +172,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/routes/annotations.yaml" />
-        <option value="$PROJECT_DIR$/config/packages/doctrine.yaml" />
-        <option value="$PROJECT_DIR$/src/Migrations/Version20200321092239.php" />
-        <option value="$PROJECT_DIR$/src/Migrations/Version20200321093712.php" />
-        <option value="$PROJECT_DIR$/src/Domain/Repository/ItemsRepositoryInterface.php" />
-        <option value="$PROJECT_DIR$/src/Infrastructure/Repository/ItemsRepository.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/src/Application/ItemData.php" />
-        <option value="$PROJECT_DIR$/src/Application/Service/GetItemApplicationServiceTest.php" />
-        <option value="$PROJECT_DIR$/tests/GetItemApplicationServiceTest.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/config/services.yaml" />
-        <option value="$PROJECT_DIR$/src/Application/Service/GetItemApplicationService.php" />
-        <option value="$PROJECT_DIR$/vendor/symfony/framework-bundle/Controller/AbstractController.php" />
-        <option value="$PROJECT_DIR$/src/Application/DTO/ItemData.php" />
-        <option value="$PROJECT_DIR$/src/UI/Controller/DefaultController.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/src/Application/Service/ListItemsApplicationService.php" />
-        <option value="$PROJECT_DIR$/src/UI/Controller/ListItemsController.php" />
-        <option value="$PROJECT_DIR$/src/UI/Controller/GetItemController.php" />
-        <option value="$PROJECT_DIR$/src/Domain/Repository/ItemsRepository.php" />
-        <option value="$PROJECT_DIR$/src/Infrastructure/Repository/DoctrineItemsRepository.php" />
+        <option value="$PROJECT_DIR$/src/Infrastructure/Exception/ItemNotFoundInDBException.php" />
+        <option value="$PROJECT_DIR$/src/Application/Exception/ItemNotFoundException.php" />
         <option value="$PROJECT_DIR$/src/Application/Service/RetrieveItemsApplicationService.php" />
-        <option value="$PROJECT_DIR$/src/UI/Controller/RetrieveItemController.php" />
-        <option value="$PROJECT_DIR$/src/Domain/Entity/Item.php" />
         <option value="$PROJECT_DIR$/src/Application/Service/AddItemsApplicationService.php" />
-        <option value="$PROJECT_DIR$/src/UI/Controller/AddItemController.php" />
-        <option value="$PROJECT_DIR$/src/UI/Controller/AddItemsController.php" />
-        <option value="$PROJECT_DIR$/examples.http" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/Application/Service/DeleteItemApplicationService.php" />
+        <option value="$PROJECT_DIR$/src/Application/Service/GetItemApplicationService.php" />
+        <option value="$PROJECT_DIR$/src/Domain/Repository/ItemsRepository.php" />
+        <option value="$PROJECT_DIR$/src/Application/AddItem/AddItemsCommand.php" />
+        <option value="$PROJECT_DIR$/src/Domain/ValueObject/IntValueObject.php" />
+        <option value="$PROJECT_DIR$/src/Domain/ValueObject/ItemId.php" />
+        <option value="$PROJECT_DIR$/src/Domain/ValueObject/ItemQuantity.php" />
+        <option value="$PROJECT_DIR$/src/Application/Service/CreateItem.php" />
+        <option value="$PROJECT_DIR$/src/Application/Service/DeleteItem.php" />
+        <option value="$PROJECT_DIR$/src/Application/Service/GetItem.php" />
+        <option value="$PROJECT_DIR$/src/Application/Service/ListItems.php" />
+        <option value="$PROJECT_DIR$/src/Application/Service/RetrieveItems.php" />
+        <option value="$PROJECT_DIR$/src/Application/AddItem/AddItems.php" />
+        <option value="$PROJECT_DIR$/src/Application/AddItem/AddItemsCommandHandler.php" />
+        <option value="$PROJECT_DIR$/src/Application/RetrieveItems/RetrieveItemsCommand.php" />
+        <option value="$PROJECT_DIR$/src/Application/RetrieveItems/RetrieveItems.php" />
         <option value="$PROJECT_DIR$/src/UI/Controller/RetrieveItemsController.php" />
+        <option value="$PROJECT_DIR$/src/Application/RetrieveItems/RetrieveItemsCommandHandler.php" />
+        <option value="$PROJECT_DIR$/src/Application/RetrieveItems/SubstractItemsCommand.php" />
+        <option value="$PROJECT_DIR$/src/Application/SubstractItems/SubstractItemsCommand.php" />
+        <option value="$PROJECT_DIR$/src/UI/Controller/AddItemsController.php" />
+        <option value="$PROJECT_DIR$/src/Application/CreateItem/CreateItemCommand.php" />
+        <option value="$PROJECT_DIR$/src/Domain/ValueObject/StringValueObject.php" />
+        <option value="$PROJECT_DIR$/src/Application/CreateItem/CreateItemCommandHandler.php" />
+        <option value="$PROJECT_DIR$/src/Application/AddItems/AddItemsCommandHandler.php" />
+        <option value="$PROJECT_DIR$/src/Application/AddItems/AddItems.php" />
+        <option value="$PROJECT_DIR$/src/Application/CreateItem/CreateItem.php" />
+        <option value="$PROJECT_DIR$/src/Domain/ValueObject/ItemName.php" />
+        <option value="$PROJECT_DIR$/src/Application/DeleteItem/DeleteItemCommand.php" />
+        <option value="$PROJECT_DIR$/src/Application/DeleteItem/DeleteItem.php" />
+        <option value="$PROJECT_DIR$/examples.http" />
+        <option value="$PROJECT_DIR$/src/Application/DeleteItem/DeleteItemCommandHandler.php" />
+        <option value="$PROJECT_DIR$/src/UI/Controller/CreateItemController.php" />
+        <option value="$PROJECT_DIR$/src/UI/Controller/DeleteItemController.php" />
+        <option value="$PROJECT_DIR$/src/UI/Controller/SubstractItemsController.php" />
+        <option value="$PROJECT_DIR$/src/Application/ListItems/ListItems.php" />
+        <option value="$PROJECT_DIR$/src/Application/ListItems/ListItemsCommand.php" />
+        <option value="$PROJECT_DIR$/src/Application/ListItems/ListItemsCommandHandler.php" />
+        <option value="$PROJECT_DIR$/src/Application/GetItem/GetItemQuery.php" />
+        <option value="$PROJECT_DIR$/config/packages/messenger.yaml" />
+        <option value="$PROJECT_DIR$/src/Application/ListItems/ListItemsQueryHandler.php" />
+        <option value="$PROJECT_DIR$/src/Application/GetItem/GetItem.php" />
+        <option value="$PROJECT_DIR$/src/Application/GetItem/GetItemQueryHandler.php" />
+        <option value="$PROJECT_DIR$/config/packages/framework.yaml" />
+        <option value="$PROJECT_DIR$/config/services.yaml" />
+        <option value="$PROJECT_DIR$/src/UI/Controller/GetItemController.php" />
+        <option value="$PROJECT_DIR$/src/UI/Controller/ListItemsController.php" />
       </list>
     </option>
   </component>
@@ -282,9 +337,12 @@
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-eventmanager" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
       <path value="$PROJECT_DIR$/vendor/webimpress/safe-writer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/messenger" />
+      <path value="$PROJECT_DIR$/vendor/simple-bus/message-bus" />
+      <path value="$PROJECT_DIR$/vendor/beberlei/assert" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -298,23 +356,47 @@
         <subPane>
           <expand>
             <path>
-              <item name="items" type="b2602c69:ProjectViewProjectNode" />
-              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="items-cqrs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="items-cqrs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="items" type="b2602c69:ProjectViewProjectNode" />
-              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="items-cqrs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="items-cqrs" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="items-cqrs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="items-cqrs" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="items-cqrs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="items-cqrs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="items" type="b2602c69:ProjectViewProjectNode" />
-              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="items-cqrs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="items-cqrs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="items-cqrs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="items-cqrs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="GetItem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="items-cqrs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="items-cqrs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="UI" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="items" type="b2602c69:ProjectViewProjectNode" />
-              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="items-cqrs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="items-cqrs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="UI" type="462c0819:PsiDirectoryNode" />
               <item name="Controller" type="462c0819:PsiDirectoryNode" />
@@ -339,20 +421,38 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/UI/Controller" />
+      <recent name="$PROJECT_DIR$/src/Application/RetrieveItems" />
       <recent name="$PROJECT_DIR$/src/Application/Service" />
+      <recent name="$PROJECT_DIR$/src/UI/Controller" />
+      <recent name="$PROJECT_DIR$/src/Application" />
       <recent name="$PROJECT_DIR$/src/Infrastructure" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tests" />
-      <recent name="$PROJECT_DIR$/src/Application/DTO" />
-      <recent name="$PROJECT_DIR$/src/Migrations" />
-      <recent name="$PROJECT_DIR$/translations" />
+      <recent name="$PROJECT_DIR$/src/Application/ListItems" />
+      <recent name="$PROJECT_DIR$/src/Application/DeleteItem" />
+      <recent name="$PROJECT_DIR$/src/Application/CreateItem" />
+      <recent name="$PROJECT_DIR$/src/Application/RetrieveItem" />
+      <recent name="$PROJECT_DIR$/src/Application/AddItem" />
     </key>
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000/2" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="GET" />
           <option name="urlBase" value="http://localhost:8000/all" />
@@ -366,6 +466,22 @@
             </list>
           </option>
           <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;berries&quot;,&#10;  &quot;quantity&quot;: 10&#10;}" />
           <option name="filesToSend" value="" />
         </RestClientRequest>
         <RestClientRequest>
@@ -384,6 +500,21 @@
           <option name="filesToSend" value="" />
         </RestClientRequest>
         <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8000/5" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
           <option name="httpMethod" value="PATCH" />
           <option name="urlBase" value="http://localhost:8000/add/2/2" />
           <option name="urlPath" value="" />
@@ -399,8 +530,8 @@
           <option name="filesToSend" value="" />
         </RestClientRequest>
         <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:8000/add/2/2" />
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8000/4" />
           <option name="urlPath" value="" />
           <option name="headers">
             <list>
@@ -415,7 +546,82 @@
         </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:8000/2" />
+          <option name="urlBase" value="http://localhost:8000/8" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8000/3" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8000/delete/3" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8000/delete/22" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8000/22" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000/add/2/2" />
           <option name="urlPath" value="" />
           <option name="headers">
             <list>
@@ -507,27 +713,25 @@
     <configuration name="examples#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/examples.http">
       <method v="2" />
     </configuration>
-    <configuration name="examples#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/examples.http" index="3">
+    <configuration name="examples#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/examples.http" index="2">
       <method v="2" />
     </configuration>
     <configuration name="examples#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/examples.http" index="4">
       <method v="2" />
     </configuration>
-    <configuration name="GetItemApplicationServiceTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="App\Application\Service\GetItemApplicationServiceTest" file="$PROJECT_DIR$/tests/GetItemApplicationServiceTest.php" scope="Class" />
+    <configuration name="examples#5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/examples.http" index="5">
       <method v="2" />
     </configuration>
-    <configuration name="GetItemApplicationServiceTest.testTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="App\Application\Service\GetItemApplicationServiceTest" file="$PROJECT_DIR$/tests/GetItemApplicationServiceTest.php" method="testTest" scope="Method" />
+    <configuration name="examples#6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/examples.http" index="6">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="HTTP Request.examples#1" />
-        <item itemvalue="HTTP Request.examples#3" />
+        <item itemvalue="HTTP Request.examples#6" />
+        <item itemvalue="HTTP Request.examples#5" />
+        <item itemvalue="HTTP Request.examples#2" />
         <item itemvalue="HTTP Request.examples#4" />
-        <item itemvalue="PHPUnit.GetItemApplicationServiceTest.testTest" />
-        <item itemvalue="PHPUnit.GetItemApplicationServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -546,8 +750,54 @@
       <workItem from="1585160580800" duration="718000" />
       <workItem from="1585241775943" duration="806000" />
       <workItem from="1585382046735" duration="1192000" />
-      <workItem from="1585383246125" duration="6382000" />
+      <workItem from="1585383246125" duration="10256000" />
+      <workItem from="1585470033582" duration="195000" />
+      <workItem from="1585470278319" duration="1731000" />
+      <workItem from="1585476760421" duration="8362000" />
     </task>
+    <task id="LOCAL-00001" summary="Create new item">
+      <created>1585394062344</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585394062344</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Name endpoints">
+      <created>1585403852253</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585403852253</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Name endpoints and rename class">
+      <created>1585403910258</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585403910258</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Delete item endpoint">
+      <created>1585403984700</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585403984700</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Exception">
+      <created>1585404566371</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585404566371</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Renaming application services">
+      <created>1585470190930</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585470190930</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -577,28 +827,28 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16086000" />
+    <option name="totallyTimeSpent" value="30248000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="27" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939634" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32939634" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32939634" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.32939634" />
       <window_info anchor="bottom" id="Docker" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32939634" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49928468" weight="0.32939634" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32939634" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32939634" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" weight="0.32939634" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5007153" side_tool="true" weight="0.32939634" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -631,70 +881,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create new item" />
+    <MESSAGE value="Name endpoints" />
+    <MESSAGE value="Name endpoints and rename class" />
+    <MESSAGE value="Delete item endpoint" />
+    <MESSAGE value="Exception" />
+    <MESSAGE value="Renaming application services" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renaming application services" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/routes/annotations.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/268ef8c8-33c3-401c-b03b-41883c368086/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/maker-bundle/src/Resources/help/MakeMigration.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/maker-bundle/src/Maker/MakeMigration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="61" column="81" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/maker-bundle/src/Maker/MakeEntity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/doctrine_migrations.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/framework.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20200321092239.php" />
-    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20200321093712.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Infrastructure/FeedParserBase.php" />
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/GetItemApplicationServiceTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/tea3.http">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -706,13 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/services.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="70" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -737,13 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Application/Service/ListItemsApplicationService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/symfony/framework-bundle/Controller/AbstractController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -758,115 +940,331 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/http-foundation/Response.php">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/HTTP Requests.http">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="46" column="26" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/Controller/ListItemsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-          <folding>
-            <element signature="e#37#93#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Repository/ItemsRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Application/Service/GetItemApplicationService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="32" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/Controller/GetItemController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="35" column="38" selection-start-line="29" selection-start-column="8" selection-end-line="35" selection-end-column="38" />
-          <folding>
-            <element signature="e#37#91#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Application/Service/RetrieveItemsApplicationService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-          <folding>
-            <element signature="e#43#76#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Entity/Item.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Infrastructure/Repository/DoctrineItemsRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-          <folding>
-            <element signature="e#49#76#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Application/Service/AddItemsApplicationService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/Controller/AddItemsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="19" column="84" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="84" />
-          <folding>
-            <element signature="e#37#92#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="140">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="70">
-            <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <first_editor relative-caret-position="84">
+            <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples.http">
+    <entry file="file://$PROJECT_DIR$/src/Domain/Entity/Item.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="197">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/Controller/RetrieveItemsController.php">
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/http-foundation/Response.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+        <state relative-caret-position="340">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Infrastructure/Exception/ItemNotFoundInDBException.php" />
+    <entry file="file://$PROJECT_DIR$/src/Application/Exception/ItemNotFoundException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Infrastructure/Repository/DoctrineItemsRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding>
-            <element signature="e#37#97#0#PHP" expanded="true" />
+            <element signature="e#49#76#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Repository/ItemsRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/ValueObject/ItemId.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/ValueObject/ItemQuantity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/simple-bus/message-bus/src/Bus/Middleware/MessageBusSupportingMiddleware.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/simple-bus/message-bus/src/Bus/MessageBus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/messenger/MessageBusInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/SubstractItems/SubstractItemsCommand.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/AddItems/AddItemsCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/SubstractItems/SubstractItems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+          <folding>
+            <element signature="e#49#76#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/SubstractItems/SubstractItemsCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/SubstractItems/SubstractItemsCommandHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="e#49#83#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/ValueObject/IntValueObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/AddItems/AddItems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/AddItems/AddItemsCommandHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/CreateItem/CreateItemCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/CreateItem/CreateItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/ValueObject/ItemName.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/DeleteItem/DeleteItemCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/DeleteItem/DeleteItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#46#98#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/CreateItem/CreateItemCommandHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="65" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="65" />
+          <folding>
+            <element signature="e#46#82#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Controller/AddItemsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Controller/CreateItemController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#37#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Controller/DeleteItemController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Controller/SubstractItemsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/GetItem/GetItemQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/DeleteItem/DeleteItemCommandHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="65" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="65" />
+          <folding>
+            <element signature="e#46#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/ListItems/ListItems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/ListItems/ListItemsQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/ListItems/ListItemsQueryHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/GetItem/GetItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/framework.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/messenger.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/GetItem/GetItemQueryHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+          <folding>
+            <element signature="e#43#76#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/services.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="26" column="70" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Controller/GetItemController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+          <folding>
+            <element signature="e#37#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/Controller/ListItemsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
         </state>
       </provider>
     </entry>

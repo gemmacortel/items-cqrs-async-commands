@@ -2,19 +2,22 @@
 
 namespace App\UI\Controller;
 
-use App\Application\Exception\ItemNotFoundException;
-use App\Application\Service\AddItems;
+use App\Application\AddItems\AddItemsCommand;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Messenger\MessageBusInterface;
 use Symfony\Component\Routing\Annotation\Route;
 
 class AddItemsController extends AbstractController
 {
-    private $applicationService;
+    /**
+     * @var MessageBusInterface
+     */
+    private $commandBus;
 
-    public function __construct(AddItems $applicationService)
+    public function __construct(MessageBusInterface $commandBus)
     {
-        $this->applicationService = $applicationService;
+        $this->commandBus = $commandBus;
     }
 
     /**
@@ -25,12 +28,10 @@ class AddItemsController extends AbstractController
      */
     public function add(int $id, int $quantity)
     {
-        try {
-            $itemData = $this->applicationService->execute($id, $quantity);
-        } catch (ItemNotFoundException $e) {
-            return $this->json('The item does not exist', Response::HTTP_BAD_REQUEST);
-        }
+        $command = new AddItemsCommand($id, $quantity);
 
-        return $this->json($itemData);
+        $this->commandBus->dispatch($command);
+
+        return $this->json('OK', Response::HTTP_ACCEPTED);
     }
 }

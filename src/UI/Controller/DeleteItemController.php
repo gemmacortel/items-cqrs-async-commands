@@ -2,22 +2,26 @@
 
 namespace App\UI\Controller;
 
-use App\Application\Exception\ItemNotFoundException;
-use App\Application\Service\DeleteItem;
+use App\Application\DeleteItem\DeleteItemCommand;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Messenger\MessageBusInterface;
 use Symfony\Component\Routing\Annotation\Route;
 
 class DeleteItemController extends AbstractController
 {
     /**
-     * @var DeleteItem
+     * @var MessageBusInterface
      */
-    private $applicationService;
+    private $commandBus;
 
-    public function __construct(DeleteItem $applicationService)
+    /**
+     * DeleteItemController constructor.
+     * @param MessageBusInterface $commandBus
+     */
+    public function __construct(MessageBusInterface $commandBus)
     {
-        $this->applicationService = $applicationService;
+        $this->commandBus = $commandBus;
     }
 
     /**
@@ -28,12 +32,10 @@ class DeleteItemController extends AbstractController
      */
     public function delete(int $id)
     {
-        try {
-            $this->applicationService->execute($id);
-        } catch (ItemNotFoundException $e) {
-            return $this->json('The item does not exist', Response::HTTP_BAD_REQUEST);
-        }
+        $command = new DeleteItemCommand($id);
 
-        return $this->json('The item has been correctly removed', Response::HTTP_OK);
+        $this->commandBus->dispatch($command);
+
+        return $this->json('OK', Response::HTTP_ACCEPTED);
     }
 }
