@@ -3,24 +3,23 @@
 namespace App\UI\Controller;
 
 use App\Application\ListItems\ListItemsQuery;
+use App\UI\QueryBus;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\Messenger\MessageBusInterface;
-use Symfony\Component\Messenger\Stamp\HandledStamp;
 use Symfony\Component\Routing\Annotation\Route;
 
 class ListItemsController extends AbstractController
 {
     /**
-     * @var MessageBusInterface
+     * @var QueryBus
      */
     private $queryBus;
 
     /**
      * ListItemsController constructor.
-     * @param MessageBusInterface $queryBus
+     * @param QueryBus $queryBus
      */
-    public function __construct(MessageBusInterface $queryBus)
+    public function __construct(QueryBus $queryBus)
     {
         $this->queryBus = $queryBus;
     }
@@ -32,10 +31,8 @@ class ListItemsController extends AbstractController
      */
     public function list()
     {
-        $envelope = $this->queryBus->dispatch(new ListItemsQuery());
+        $items = $this->queryBus->dispatch(new ListItemsQuery());
 
-        $handled = $envelope->last(HandledStamp::class);
-
-        return $this->json($handled->getResult());
+        return $this->json($items);
     }
 }

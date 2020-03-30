@@ -2,7 +2,9 @@
 
 namespace App\Application\GetItem;
 
-class GetItemQuery
+use App\Application\Query;
+
+class GetItemQuery extends Query
 {
     /**
      * @var int

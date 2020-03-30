@@ -2,6 +2,8 @@
 
 namespace App\Application\ListItems;
 
-class ListItemsQuery
+use App\Application\Query;
+
+class ListItemsQuery extends Query
 {
 }
