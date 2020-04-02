@@ -4,6 +4,10 @@
 # Put parameters here that don't need to change on each machine where the app is deployed
 # https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
+    rabbitmq_host: 'localhost'
+    rabbitmq_user: 'guest'
+    rabbitmq_password: 'guest'
+    rabbitmq_vhost: 'items'
 
 services:
     # default configuration for services in *this* file
@@ -48,3 +52,5 @@ services:
     App\Application\ListItems\ListItemsQueryHandler:
         tags: [{ name: messenger.message_handler, bus: query.bus }]
         autoconfigure: false
+
+    App\UI\Producer\Producer: '@old_sound_rabbit_mq.adding_producer'

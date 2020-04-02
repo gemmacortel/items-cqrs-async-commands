@@ -2,8 +2,6 @@
 
 namespace App\Application\AddItems;
 
-use App\Application\DTO\ItemData;
-use App\Application\Exception\ItemNotFoundException;
 use App\Domain\Repository\ItemsRepository;
 use App\Domain\ValueObject\ItemId;
 use App\Domain\ValueObject\ItemQuantity;

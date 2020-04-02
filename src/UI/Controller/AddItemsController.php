@@ -2,22 +2,25 @@
 
 namespace App\UI\Controller;
 
-use App\Application\AddItems\AddItemsCommand;
+use App\UI\Bus\AsyncCommandBus;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\Messenger\MessageBusInterface;
 use Symfony\Component\Routing\Annotation\Route;
 
 class AddItemsController extends AbstractController
 {
     /**
-     * @var MessageBusInterface
+     * @var AsyncCommandBus
      */
-    private $commandBus;
+    private $asyncCommandBus;
 
-    public function __construct(MessageBusInterface $commandBus)
+    /**
+     * AddItemsController constructor.
+     * @param AsyncCommandBus $asyncCommandBus
+     */
+    public function __construct(AsyncCommandBus $asyncCommandBus)
     {
-        $this->commandBus = $commandBus;
+        $this->asyncCommandBus = $asyncCommandBus;
     }
 
     /**
@@ -28,9 +31,9 @@ class AddItemsController extends AbstractController
      */
     public function add(int $id, int $quantity)
     {
-        $command = new AddItemsCommand($id, $quantity);
+        $message = ["id" => $id, "quantity" => $quantity];
 
-        $this->commandBus->dispatch($command);
+        $this->asyncCommandBus->dispatch($message);
 
         return $this->json('OK', Response::HTTP_ACCEPTED);
     }

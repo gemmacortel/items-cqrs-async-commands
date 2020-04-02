@@ -1,0 +1,31 @@
+old_sound_rabbit_mq:
+    connections:
+        default:
+            host: '%rabbitmq_host%'
+            user: '%rabbitmq_user%'
+            password: '%rabbitmq_password%'
+            vhost: '%rabbitmq_vhost%'
+    producers:
+        adding:
+            class: App\UI\Producer\Producer
+            connection: default
+            exchange_options:
+                name: ids
+                type: direct
+        subtracting:
+            class: App\UI\Producer\Producer
+            connection: default
+            exchange_options:
+                name: ids
+                type: direct
+    consumers:
+        adding:
+            connection:       default
+            exchange_options: {name: 'ids', type: direct}
+            queue_options:    {name: 'ids'}
+            callback:         App\Infrastructure\Consumer\AddItemsConsumer
+        subtracting:
+            connection:       default
+            exchange_options: {name: 'ids', type: direct}
+            queue_options:    {name: 'ids'}
+            callback:         App\Infrastructure\Consumer\SubtractItemsConsumer

@@ -2,32 +2,31 @@
 
 namespace App\UI\CLICommand;
 
-use App\Application\AddItems\AddItemsCommand;
+use App\UI\Bus\AsyncCommandBus;
 use Symfony\Component\Console\Command\Command;
-use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
-use Symfony\Component\Messenger\MessageBusInterface;
 
 class AddItemsCLICommand extends Command
 {
     /**
-     * @var MessageBusInterface
+     * @var AsyncCommandBus
      */
-    private $commandBus;
+    private $asyncCommandBus;
 
     protected static $defaultName = 'add-items';
 
     /**
-     * @param MessageBusInterface $commandBus
+     * AddItemsController constructor.
+     * @param AsyncCommandBus $asyncCommandBus
      */
-    public function __construct(MessageBusInterface $commandBus)
+    public function __construct(AsyncCommandBus $asyncCommandBus)
     {
         parent::__construct();
 
-        $this->commandBus = $commandBus;
+        $this->asyncCommandBus = $asyncCommandBus;
     }
 
     protected function configure()
@@ -42,10 +41,13 @@ class AddItemsCLICommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $io = new SymfonyStyle($input, $output);
+
         $itemId = $input->getOption('id');
         $itemQuantity = $input->getOption('quantity');
 
-        $this->commandBus->dispatch(new AddItemsCommand($itemId, $itemQuantity));
+        $message = ["id" => $itemId, "quantity" => $itemQuantity];
+
+        $this->asyncCommandBus->dispatch($message);
 
         $io->success('');
 

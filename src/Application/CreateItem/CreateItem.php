@@ -23,7 +23,7 @@ class CreateItem
     /**
      * @param ItemName $name
      * @param ItemQuantity $quantity
-     * @return ItemData
+     * @return void
      */
     public function __invoke(ItemName $name, ItemQuantity $quantity): void
     {

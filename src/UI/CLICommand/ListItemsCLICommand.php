@@ -3,7 +3,7 @@
 namespace App\UI\CLICommand;
 
 use App\Application\ListItems\ListItemsQuery;
-use App\UI\QueryBus;
+use App\UI\Bus\QueryBus;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;

@@ -114,6 +114,22 @@
     "php": {
         "version": "7.4"
     },
+    "php-amqplib/php-amqplib": {
+        "version": "v2.11.1"
+    },
+    "php-amqplib/rabbitmq-bundle": {
+        "version": "1.12",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "1.12",
+            "ref": "ce3ca2e4577270c4f518539aa6b9e878998fcfef"
+        },
+        "files": [
+            "config/packages/old_sound_rabbit_mq.yaml",
+            "src/Consumer/.gitignore"
+        ]
+    },
     "phpdocumentor/reflection-common": {
         "version": "2.0.0"
     },
@@ -122,6 +138,9 @@
     },
     "phpdocumentor/type-resolver": {
         "version": "1.1.0"
+    },
+    "phpseclib/phpseclib": {
+        "version": "2.0.26"
     },
     "psr/cache": {
         "version": "1.0.1"
@@ -183,6 +202,9 @@
     },
     "symfony/css-selector": {
         "version": "v5.0.5"
+    },
+    "symfony/debug": {
+        "version": "v4.4.7"
     },
     "symfony/debug-bundle": {
         "version": "4.1",
@@ -333,18 +355,6 @@
             "config/packages/dev/monolog.yaml",
             "config/packages/prod/monolog.yaml",
             "config/packages/test/monolog.yaml"
-        ]
-    },
-    "symfony/notifier": {
-        "version": "5.0",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "master",
-            "version": "5.0",
-            "ref": "c31585e252b32fe0e1f30b1f256af553f4a06eb9"
-        },
-        "files": [
-            "config/packages/notifier.yaml"
         ]
     },
     "symfony/options-resolver": {

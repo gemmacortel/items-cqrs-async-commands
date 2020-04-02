@@ -3,7 +3,7 @@
 namespace App\UI\Controller;
 
 use App\Application\ListItems\ListItemsQuery;
-use App\UI\QueryBus;
+use App\UI\Bus\QueryBus;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;

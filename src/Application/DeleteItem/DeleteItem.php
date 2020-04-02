@@ -2,7 +2,6 @@
 
 namespace App\Application\DeleteItem;
 
-use App\Application\Exception\ItemNotFoundException;
 use App\Domain\Repository\ItemsRepository;
 use App\Domain\ValueObject\ItemId;
 

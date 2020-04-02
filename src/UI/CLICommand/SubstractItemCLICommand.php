@@ -2,34 +2,30 @@
 
 namespace App\UI\CLICommand;
 
-use App\Application\GetItem\GetItemQuery;
-use App\Application\SubstractItems\SubstractItemsCommand;
-use App\UI\QueryBus;
+use App\UI\Bus\AsyncCommandBus;
 use Symfony\Component\Console\Command\Command;
-use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
-use Symfony\Component\Messenger\MessageBusInterface;
 
 class SubstractItemCLICommand extends Command
 {
-    /**
-     * @var MessageBusInterface
-     */
-    private $commandBus;
 
     protected static $defaultName = 'substract-items';
+    /**
+     * @var AsyncCommandBus
+     */
+    private $asyncCommandBus;
 
     /**
-     * @param MessageBusInterface $commandBus
+     * @param AsyncCommandBus $asyncCommandBus
      */
-    public function __construct(MessageBusInterface $commandBus)
+    public function __construct(AsyncCommandBus $asyncCommandBus)
     {
         parent::__construct();
 
-        $this->commandBus = $commandBus;
+        $this->asyncCommandBus = $asyncCommandBus;
     }
 
     protected function configure()
@@ -47,7 +43,9 @@ class SubstractItemCLICommand extends Command
         $itemId = $input->getOption('id');
         $itemQuantity = $input->getOption('quantity');
 
-        $this->commandBus->dispatch(new SubstractItemsCommand($itemId, $itemQuantity));
+        $message = ["id" => $itemId, "quantity" => $itemQuantity];
+
+        $this->asyncCommandBus->dispatch($message);
 
         $io->success('');
 

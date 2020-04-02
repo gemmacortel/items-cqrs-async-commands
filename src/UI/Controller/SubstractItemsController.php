@@ -2,22 +2,25 @@
 
 namespace App\UI\Controller;
 
-use App\Application\SubstractItems\SubstractItemsCommand;
+use App\UI\Bus\AsyncCommandBus;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\Messenger\MessageBusInterface;
 use Symfony\Component\Routing\Annotation\Route;
 
 class SubstractItemsController extends AbstractController
 {
     /**
-     * @var MessageBusInterface
+     * @var AsyncCommandBus
      */
-    private $messageBus;
+    private $asyncCommandBus;
 
-    public function __construct(MessageBusInterface $messageBus)
+    /**
+     * AddItemsController constructor.
+     * @param AsyncCommandBus $asyncCommandBus
+     */
+    public function __construct(AsyncCommandBus $asyncCommandBus)
     {
-        $this->messageBus = $messageBus;
+        $this->asyncCommandBus = $asyncCommandBus;
     }
 
     /**
@@ -28,9 +31,9 @@ class SubstractItemsController extends AbstractController
      */
     public function retrieve(int $id, int $quantity)
     {
-        $command = new SubstractItemsCommand($id, $quantity);
+        $message = ["id" => $id, "quantity" => $quantity];
 
-        $this->messageBus->dispatch($command);
+        $this->asyncCommandBus->dispatch($message);
 
         return $this->json('OK', Response::HTTP_ACCEPTED);
     }

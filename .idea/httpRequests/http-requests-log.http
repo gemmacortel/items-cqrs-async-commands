@@ -1,370 +1,350 @@
-GET http://localhost:8000/all
+GET http://localhost:8000/1
 Content-Type: application/json
 
-<> 2020-03-29T061517.200.json
+<> 2020-04-02T030626.200.json
 
 ###
 
-DELETE http://localhost:8000/7
+GET http://localhost:8000/1
 Content-Type: application/json
 
-<> 2020-03-29T061516.202.json
+<> 2020-04-02T030620.200.json
 
 ###
 
-GET http://localhost:8000/all
+PATCH http://localhost:8000/retrieve/1/1
 Content-Type: application/json
 
-<> 2020-03-29T061508.200.json
+<> 2020-04-02T030613.202.json
 
 ###
 
-POST http://localhost:8000
+GET http://localhost:8000/1
 Content-Type: application/json
 
-{
-  "name": "berries",
-  "quantity": 10
-}
+<> 2020-04-02T030308.200.json
 
-<> 2020-03-29T061505.202.json
+###
+
+PATCH http://localhost:8000/retrieve/1/1
+Content-Type: application/json
+
+<> 2020-04-02T030247.202.json
+
+###
+
+GET http://localhost:8000/1
+Content-Type: application/json
+
+<> 2020-04-02T030242.200.json
+
+###
+
+GET http://localhost:8000/1
+Content-Type: application/json
+
+<> 2020-04-02T025936.200.json
+
+###
+
+GET http://localhost:8000/1
+Content-Type: application/json
+
+<> 2020-04-02T025929.200.json
+
+###
+
+PATCH http://localhost:8000/add/1/1
+Content-Type: application/json
+
+<> 2020-04-02T025924.202.json
+
+###
+
+GET http://localhost:8000/1
+Content-Type: application/json
+
+<> 2020-04-02T025921.200.json
+
+###
+
+PATCH http://localhost:8000/add/1/1
+Content-Type: application/json
+
+<> 2020-04-02T025827.500.html
+
+###
+
+PATCH http://localhost:8000/add/1/1
+Content-Type: application/json
+
+<> 2020-04-02T025756.500.html
+
+###
+
+PATCH http://localhost:8000/add/1/1
+Content-Type: application/json
+
+<> 2020-04-02T025730.500.html
+
+###
+
+GET http://localhost:8000/1
+Content-Type: application/json
+
+<> 2020-04-02T025725.200.json
+
+###
+
+GET http://localhost:8000/1
+Content-Type: application/json
+
+<> 2020-04-02T025703.500.html
+
+###
+
+GET http://localhost:8000/1
+Content-Type: application/json
+
+<> 2020-04-02T025033.200.json
+
+###
+
+PATCH http://localhost:8000/add/1/1
+Content-Type: application/json
+
+<> 2020-04-02T025027.202.json
+
+###
+
+GET http://localhost:8000/1
+Content-Type: application/json
+
+<> 2020-04-02T025024.200.json
+
+###
+
+GET http://localhost:8000/1
+Content-Type: application/json
+
+<> 2020-04-02T024937.200.json
+
+###
+
+PATCH http://localhost:8000/add/1/1
+Content-Type: application/json
+
+<> 2020-04-02T024934.202.json
+
+###
+
+GET http://localhost:8000/1
+Content-Type: application/json
+
+<> 2020-04-02T024930.200.json
+
+###
+
+GET http://localhost:8000/1
+Content-Type: application/json
+
+<> 2020-04-02T024030.200.json
+
+###
+
+GET http://localhost:8000/1
+Content-Type: application/json
+
+<> 2020-04-02T024015.200.json
+
+###
+
+PATCH http://localhost:8000/add/1/1
+Content-Type: application/json
+
+<> 2020-04-02T024003.202.json
+
+###
+
+GET http://localhost:8000/1
+Content-Type: application/json
+
+<> 2020-04-02T023939.200.json
+
+###
+
+PATCH http://localhost:8000/add/1/1
+Content-Type: application/json
+
+<> 2020-04-02T023935.202.json
+
+###
+
+GET http://localhost:8000/1
+Content-Type: application/json
+
+<> 2020-04-02T023931.200.json
 
 ###
 
 GET http://localhost:8000/2
 Content-Type: application/json
 
-<> 2020-03-29T061502.200.json
+<> 2020-04-02T023828.200.json
+
+###
+
+GET http://localhost:8000/2
+Content-Type: application/json
+
+<> 2020-04-02T023808.200.json
 
 ###
 
 PATCH http://localhost:8000/add/2/2
 Content-Type: application/json
 
-<> 2020-03-29T061500.202.json
+<> 2020-04-02T023804.202.json
 
 ###
 
 GET http://localhost:8000/2
 Content-Type: application/json
 
-<> 2020-03-29T061458.200.json
+<> 2020-04-02T023801.200.json
 
 ###
 
-PATCH http://localhost:8000/retrieve/2/2
+PATCH http://localhost:8000/add/2/2
 Content-Type: application/json
 
-<> 2020-03-29T061455.202.json
+<> 2020-04-02T023634.202.json
 
 ###
 
-GET http://localhost:8000/2
+PATCH http://localhost:8000/add/2/2
 Content-Type: application/json
 
-<> 2020-03-29T061449.200.json
+<> 2020-04-02T023538.202.json
+
+###
+
+PATCH http://localhost:8000/add/2/2
+Content-Type: application/json
+
+<> 2020-04-02T023433.202.json
+
+###
+
+PATCH http://localhost:8000/add/2/2
+Content-Type: application/json
+
+<> 2020-04-02T023111.202.json
+
+###
+
+PATCH http://localhost:8000/add/2/2
+Content-Type: application/json
+
+<> 2020-04-02T023038.202.json
+
+###
+
+PATCH http://localhost:8000/add/2/2
+Content-Type: application/json
+
+<> 2020-04-02T023005.500.html
+
+###
+
+PATCH http://localhost:8000/add/2/2
+Content-Type: application/json
+
+<> 2020-04-02T022649.500.html
+
+###
+
+PATCH http://localhost:8000/add/2/2
+Content-Type: application/json
+
+<> 2020-04-02T022052.500.html
+
+###
+
+PATCH http://localhost:8000/add/2/2
+Content-Type: application/json
+
+<> 2020-03-31T084926.500.html
+
+###
+
+PATCH http://localhost:8000/add/2/2
+Content-Type: application/json
+
+<> 2020-03-31T084752.500.html
+
+###
+
+PATCH http://localhost:8000/add/2/2
+Content-Type: application/json
+
+<> 2020-03-31T084742.500.html
+
+###
+
+PATCH http://localhost:8000/add/2/2
+Content-Type: application/json
+
+<> 2020-03-31T084306.500.html
+
+###
+
+PATCH http://localhost:8000/add/2/2
+Content-Type: application/json
+
+<> 2020-03-31T084245.202.json
+
+###
+
+PATCH http://localhost:8000/add/2/2
+Content-Type: application/json
+
+<> 2020-03-31T084216.500.html
+
+###
+
+PATCH http://localhost:8000/add/2/2
+Content-Type: application/json
+
+<> 2020-03-31T084157.500.html
+
+###
+
+PATCH http://localhost:8000/add/2/2
+Content-Type: application/json
+
+<> 2020-03-31T083756.500.html
+
+###
+
+PATCH http://localhost:8000/add/2/2
+Content-Type: application/json
+
+<> 2020-03-31T083715.500.html
+
+###
+
+PATCH http://localhost:8000/add/2/2
+Content-Type: application/json
+
+<> 2020-03-31T083019.500.html
 
 ###
 
 GET http://localhost:8000/all
 Content-Type: application/json
 
-<> 2020-03-29T061446.200.json
-
-###
-
-GET http://localhost:8000/all
-Content-Type: application/json
-
-<> 2020-03-29T061324.200.json
-
-###
-
-GET http://localhost:8000/2
-Content-Type: application/json
-
-<> 2020-03-29T061129.200.json
-
-###
-
-GET http://localhost:8000/2
-Content-Type: application/json
-
-<> 2020-03-29T061042.200.html
-
-###
-
-GET http://localhost:8000/2
-Content-Type: application/json
-
-<> 2020-03-29T061005.200.html
-
-###
-
-GET http://localhost:8000/2
-Content-Type: application/json
-
-<> 2020-03-29T060642.200.json
-
-###
-
-GET http://localhost:8000/2
-Content-Type: application/json
-
-<> 2020-03-29T060631.200.html
-
-###
-
-GET http://localhost:8000/all
-Content-Type: application/json
-
-<> 2020-03-29T060623.200.json
-
-###
-
-GET http://localhost:8000/all
-Content-Type: application/json
-
-<> 2020-03-29T060411.200.json
-
-###
-
-POST http://localhost:8000
-Content-Type: application/json
-
-{
-  "name": "berries",
-  "quantity": 10
-}
-
-<> 2020-03-29T060408.202.json
-
-###
-
-GET http://localhost:8000/2
-Content-Type: application/json
-
-<> 2020-03-29T060257.200.html
-
-###
-
-GET http://localhost:8000/2
-Content-Type: application/json
-
-<> 2020-03-29T060217.200.html
-
-###
-
-GET http://localhost:8000/2
-Content-Type: application/json
-
-<> 2020-03-29T060143.500.html
-
-###
-
-GET http://localhost:8000/all
-Content-Type: application/json
-
-<> 2020-03-29T060132.200.json
-
-###
-
-GET http://localhost:8000/all
-Content-Type: application/json
-
-<> 2020-03-29T055849.200.json
-
-###
-
-PATCH http://localhost:8000/retrieve/2/2
-Content-Type: application/json
-
-<> 2020-03-29T055847.202.json
-
-###
-
-GET http://localhost:8000/all
-Content-Type: application/json
-
-<> 2020-03-29T055838.200.json
-
-###
-
-GET http://localhost:8000/2
-Content-Type: application/json
-
-<> 2020-03-29T055251.200.html
-
-###
-
-GET http://localhost:8000/2
-Content-Type: application/json
-
-<> 2020-03-29T055243.200.html
-
-###
-
-GET http://localhost:8000/2
-Content-Type: application/json
-
-<> 2020-03-29T055200.200.html
-
-###
-
-GET http://localhost:8000/2
-Content-Type: application/json
-
-<> 2020-03-29T055148.200.html
-
-###
-
-GET http://localhost:8000/2
-Content-Type: application/json
-
-<> 2020-03-29T055138.200.html
-
-###
-
-GET http://localhost:8000/2
-Content-Type: application/json
-
-<> 2020-03-29T055132.200.html
-
-###
-
-GET http://localhost:8000/2
-Content-Type: application/json
-
-<> 2020-03-29T055055.200.html
-
-###
-
-GET http://localhost:8000/2
-Content-Type: application/json
-
-<> 2020-03-29T055034.200.html
-
-###
-
-GET http://localhost:8000/2
-Content-Type: application/json
-
-<> 2020-03-29T054934.200.json
-
-###
-
-GET http://localhost:8000/all
-Content-Type: application/json
-
-<> 2020-03-29T054929.200.json
-
-###
-
-GET http://localhost:8000/2
-Content-Type: application/json
-
-<> 2020-03-29T054918.200.json
-
-###
-
-GET http://localhost:8000/all
-Content-Type: application/json
-
-<> 2020-03-29T054910.200.json
-
-###
-
-GET http://localhost:8000/all
-Content-Type: application/json
-
-<> 2020-03-29T054640.500.html
-
-###
-
-GET http://localhost:8000/all
-Content-Type: application/json
-
-<> 2020-03-29T052434.200.json
-
-###
-
-DELETE http://localhost:8000/5
-Content-Type: application/json
-
-<> 2020-03-29T052428.202.json
-
-###
-
-DELETE http://localhost:8000/5
-Content-Type: application/json
-
-<> 2020-03-29T052425.500.html
-
-###
-
-DELETE http://localhost:8000/5
-Content-Type: application/json
-
-<> 2020-03-29T052402.500.html
-
-###
-
-GET http://localhost:8000/all
-Content-Type: application/json
-
-<> 2020-03-29T052357.200.json
-
-###
-
-GET http://localhost:8000/all
-Content-Type: application/json
-
-<> 2020-03-29T051915.200.json
-
-###
-
-POST http://localhost:8000
-Content-Type: application/json
-
-{
-  "name": "berries",
-  "quantity": 10
-}
-
-<> 2020-03-29T051910.202.json
-
-###
-
-POST http://localhost:8000
-Content-Type: application/json
-
-{
-  "name": "berries",
-  "quantity": 10
-}
-
-<> 2020-03-29T051825.500.html
-
-###
-
-GET http://localhost:8000/all
-Content-Type: application/json
-
-<> 2020-03-29T051821.200.json
-
-###
-
-GET http://localhost:8000/all
-Content-Type: application/json
-
-<> 2020-03-29T050658.200.json
-
-###
-
-PATCH http://localhost:8000/retrieve/2/2
-Content-Type: application/json
-
-<> 2020-03-29T050655.202.json
+<> 2020-03-31T081717.200.json
 
 ###
 
